@@ -7,7 +7,7 @@ import { WelcomePage } from './components/welcome-page/welcome-page';
 @Component({
   selector: 'sample-mfe-reactapp-entry',
   templateUrl: './entry.component.html',
-  styleUrls: ['./entry.component.scss'],
+  styleUrls: ['./entry.component.css'],
 })
 export class RemoteEntryComponent {
   @ViewChild('containerRef', { static: true }) container: ElementRef;

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import './welcome-page.scss';
+import './welcome-page.css';
 import { Link, Navigate, Outlet, Route, Routes } from 'react-router-dom';
 // import { Component } from 'react';
 import { BasicInfo } from '../basic-info/basic-info'
